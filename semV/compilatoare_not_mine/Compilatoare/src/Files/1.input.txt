@@ -1,0 +1,10 @@
+int a='aaa';
+xx==aa 2 10-2;
+ -9   'a'
+"dadas"
+"as
+'d
+ds"
+if(a < =10)
+    a = 5;
+b = a + 1;

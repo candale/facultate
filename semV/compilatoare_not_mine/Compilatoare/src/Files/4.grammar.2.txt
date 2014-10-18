@@ -1,0 +1,27 @@
+beginPR endPR var int char book array start stop input output execute if else for from to = == != < > <= >= + - * / ; ( ) | , IDENTIFIER
+prog rel decllist typeall typeint typechar stmall stmcmp stmif stm stmcomplete smtfor assig decl cond stmsimple stmcomplex
+prog
+prog -> beginPR decllist stmcomplete endPR
+decllist -> decl
+decl ->  IDENTIFIER = typeall
+typeall  -> typeint
+typeall -> typechar
+typeint -> int
+typechar -> char
+stmcomplete -> start stmall stop
+stmall -> stm
+stm -> stmsimple
+stm -> stmcomplex
+stmsimple -> assig
+assig -> IDENTIFIER == IDENTIFIER
+stmcomplex -> stmcomplete
+stmcomplex -> stmif
+stmcomplex -> stmfor
+stmif -> if ( cond ) stm
+forstmt -> for ( from IDENTIFIER to )  stm
+cond -> IDENTIFIER rel IDENTIFIER
+rel -> <=
+rel -> ==
+rel -> >
+rel -> >=
+rel -> <

@@ -1,0 +1,5 @@
+Error list: 
+Lexical error at line 4. Unindentified token: "'aaa'"
+Lexical error at line 17. Unindentified token: ""as"
+Lexical error at line 18. Unindentified token: "'d"
+Lexical error at line 19. Unindentified token: "ds""
