@@ -1,0 +1,14 @@
+Substitution Cypher
+===================
+
+Given a set of letter that represents the alphabet (call it key), no matter the order, the encryption is done in the follwoing way:
+	- the letters from the alphabet (which is in lexicographic order) are mapped to the key so that every letter from the alphabet has a corresponding
+	  letter in the key
+
+In order to obtain a cyphertext we need to replace every leter in the given text with it's corresponding letter form the key.
+
+The decryption goes the other way around:
+	- given the key, every letter from the key is mapped to the corresponding letter from the alphabet (which is in lexicographic order)
+
+In order to obtain the original message, every letter from the cyphertext is replaces with it's corresponding letter from the alphabet.
+
