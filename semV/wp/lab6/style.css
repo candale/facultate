@@ -1,0 +1,20 @@
+.container {
+	position: relative;
+	top: 15%;
+	left: 70%;
+   height: 340px;
+   width: 200px;
+   border: 1px solid;
+   padding: 5px;
+   display: table-cell;
+   vertical-align: bottom;
+}
+
+.elem {
+	position: relative;
+	height: 50px;
+	clear: both;
+	text-align: center;
+   border: 1px solid;
+   margin-top: 5px;
+}

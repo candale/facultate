@@ -1,0 +1,1993 @@
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pudb/__init__.py", line 77, in runscript
+    dbg._runscript(mainpyfile)
+  File "/usr/local/lib/python2.7/dist-packages/pudb/debugger.py", line 371, in _runscript
+    self.run(statement, globals=globals_, locals=locals_)
+  File "/usr/lib/python2.7/bdb.py", line 400, in run
+    exec cmd in globals, locals
+  File "<string>", line 1, in <module>
+  File "ParseCode.py", line 299, in <module>
+    compile.compile()
+  File "ParseCode.py", line 83, in compile
+    self._parse_line(line)
+  File "ParseCode.py", line 108, in _parse_line
+    if self.__parse_for_loop(tokens[index:]):
+  File "ParseCode.py", line 142, in __parse_for_loop
+    if not self.__add_to_pif(token):
+  File "ParseCode.py", line 196, in __add_to_pif
+    symbol_code = self.__add_symbol_with_check(token)
+  File "ParseCode.py", line 223, in __add_symbol_with_check
+    symbol_no = self._get_symbol(symbol)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 289, in _get_symbol
+    return self._get_symbol(symb, pos + (len(self.__symbols) - pos) / 2)
+  File "ParseCode.py", line 287, in _get_symbol
+    return self._get_symbol(symb, pos / 2)
+  File "ParseCode.py", line 278, in _get_symbol
+    def _get_symbol(self, symb, pos=None):
+  File "/usr/lib/python2.7/bdb.py", line 51, in trace_dispatch
+    return self.dispatch_call(frame, arg)
+  File "/usr/lib/python2.7/bdb.py", line 77, in dispatch_call
+    if not (self.stop_here(frame) or self.break_anywhere(frame)):
+  File "/usr/lib/python2.7/bdb.py", line 152, in break_anywhere
+    return self.canonic(frame.f_code.co_filename) in self.breaks
+  File "/usr/lib/python2.7/bdb.py", line 30, in canonic
+    if filename == "<" + filename[1:-1] + ">":
+RuntimeError: maximum recursion depth exceeded in cmp

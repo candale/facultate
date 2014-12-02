@@ -1,0 +1,29 @@
+ul.main-menu, ul.sub-menu {
+	list-style-type: none;
+}
+
+li.menu:hover ul.sub-menu {
+	position: relative;
+	left: 263px;
+	top: -20px;
+	display: inline-block;
+}
+
+li.menu:hover {
+	background-color: blue;
+}
+
+li{
+	border: 1px solid;
+	border-color: gray;
+	background-color: #393939;
+	border-radius: 2px;
+	color: #F2F2F2;
+	width: 300px;
+	height: 17px;
+	padding-left: 5px;
+}
+
+ul.sub-menu {
+	display: none;
+}

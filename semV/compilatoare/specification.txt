@@ -1,0 +1,70 @@
+Language Specification:
+	1 .Language Definition:
+	1.1 Alphabet:
+	1.1.a. Upper (A-Z) and lower case letters (a-z) of the English alphabet
+		b. Underline character '_';
+		c. Decimal digits (0-9);
+	Lexic:
+	a.Special symbols, representing:
+		- operators + - * / = < <= == >=
+		- separators [ ] { } : ; space
+		- reserved words:
+			array char const else if int of read then var while write to struct for
+
+	b.identifiers
+		-a sequence of letters and digits, such that the first charater is a letter; the rule is:
+		identifier ::= letter | letter{letter}{digit}
+		letter ::= "A" | "B" | ... | "Z"
+		digit ::= "0" | "1" | ... | "9"
+
+	1.nonzero
+		nonzero := 1 |...| 9
+	2.integer - rule:
+		noconst := +nz|-nz|nz|0
+		no := digit{no}
+		nz := nonzero{no}
+
+	3.character
+		character = 'letter'|'digit'
+
+	4.string
+		constchar = "string"
+		string = char{string}
+		char = letter|digit|space
+
+	2.2 Syntax:
+		The words - predefined tokens are specified between " and ":	
+		a) Sintactical rules:
+			program ::= "VAR" decllist ";" cmpdstmt "."
+
+			decllist ::= declaration | declaration ";" decllist
+			declaration ::= type IDENTIFIER
+
+			type1 ::= "CHAR" | "INT" | "STRING" 
+			arraydecl ::= "ARRAY" "[" nr "]" "OF" type1
+			type ::= type1 | arraydecl
+
+			c_structdecl ::= "STRUCT" IDENTIFIER "{" decllist "}"
+
+			assignstmt ::= IDENTIFIER "=" expression
+			expression ::= expression operator term | term
+			term ::= term operator factor | factor
+			factor ::= "(" expression ")" | IDENTIFIER
+
+			condition ::= expression RELATION expression
+
+			cmpdstmt ::= "{" stmtlist "}"
+			stmtlist ::= stmt | stmt ";" stmtlist
+			stmt ::= simplstmt | structstmt
+			simplstmt ::= assignstmt | iostmt
+			structstmt ::= cmpdstmt | ifstmt | whilestmt
+			ifstmt ::= "IF" condition "THEN" stmt ["ELSE" stmt]
+			whilestmt ::= "WHILE" condition "DO" stmt
+			forstmt ::= "FOR" IDENTIFIER "=" expression "TO" expression stmt
+
+			iostmt ::= "READ" | "WRITE" "(" IDENTIFIER ")"
+		b) lexical rules:
+			IDENTIFIER ::= letter | letter{letter}{digit}
+			letter ::= "A" | "B" | ... | "Z"
+			digit ::= "0" | "1" | ... | "9"
+			RELATION ::= "<" | "<=" | "==" | "!=" | ">=" | ">"

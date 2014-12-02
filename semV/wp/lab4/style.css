@@ -1,0 +1,28 @@
+.article {
+	background-color: red;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 10px;
+}
+
+.book-report {
+	background-color: blue;
+	font-family: "Fixed", "monospace";
+}
+
+.presentation {
+	background-color: yellow;
+	font-variant: small-caps;	
+}
+
+.web-link {
+	background-color: green; 
+}
+
+.soft-pack {
+	background-color: gray;
+}
+
+body {
+	background-image: url("wow.png");
+	background-repeat: repeat-x;
+}

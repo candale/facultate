@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="page.xsl"?>
+
+<main>
+	<articles>
+		<article>
+			<title>The article of anything</title>
+			<author>Mihai</author>
+			<pub-year>1999</pub-year>
+		</article>
+
+		<article>
+			<title>The article of nothing</title>
+			<author>Oana</author>
+			<pub-year>2003</pub-year>
+		</article>
+
+		<article>
+			<title>ARTCILE</title>
+			<author>I</author>
+			<pub-year>2001</pub-year>
+		</article>
+
+		<article>
+			<title>LOOOOL Article</title>
+			<author>You</author>
+			<pub-year>2010</pub-year>
+		</article>
+	</articles>
+	<book-reports>
+		<book-report>
+			<title>REPORT</title>
+			<author>Dan</author>
+			<pub-year>1999</pub-year>
+		</book-report>
+
+		<book-report>
+			<title>Another report</title>
+			<author>Andra</author>
+			<pub-year>2005</pub-year>
+		</book-report>
+		
+		<book-report>
+			<title>LOL Reporrt</title>
+			<author>Victor Ponta</author>
+			<pub-year>2002</pub-year>
+		</book-report>
+
+		<book-report>
+			<title>Repo</title>
+			<author>Base</author>
+			<pub-year>2001</pub-year>
+		</book-report>
+	</book-reports>
+	<presentations>
+		<presentation>
+			<title>Presentation NO I</title>
+			<author>I</author>
+			<pub-year>2003</pub-year>
+		</presentation>
+
+		<presentation>
+			<title>Presentation NO II</title>
+			<author>II</author>
+			<pub-year>2004</pub-year>
+		</presentation>
+			
+		<presentation>
+			<title> Presentation NO III</title>
+			<author>LOL</author>
+			<pub-year>1999</pub-year>
+		</presentation>
+		
+		<presentation>
+			<title>Presentation NO IV</title>
+			<author>lol</author>
+			<pub-year>2010</pub-year>
+		</presentation>
+	</presentations>
+	<web-links>
+		<web-link>
+			<author>Google</author>
+			<pub-year>2005</pub-year>
+		</web-link>
+
+		<web-link>
+			<author>Yahoo</author>
+			<pub-year>2003</pub-year>
+		</web-link>
+
+		<web-link>
+			<author>Facebook</author>
+			<pub-year>2008</pub-year>
+		</web-link>
+	</web-links>
+	<soft-packs>
+		<soft-pack>
+			<author>Me</author>
+			<pub-year>2007</pub-year>
+		</soft-pack>
+
+		<soft-pack>
+			<author>You</author>
+			<pub-year>2005</pub-year>
+		</soft-pack>
+	</soft-packs>
+</main>

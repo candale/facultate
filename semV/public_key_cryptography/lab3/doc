@@ -1,0 +1,4 @@
+The Euler function φ: N → N is a mapping associating to each positive integer n the number φ(n), which is the number of integers that are relatively prime to n.
+For example φ(6) = 2 because only 1 and 5 are relatively prime to 6.
+The formula for finding such a number is the following:
+	given n, φ(n) = n * (1 - 1 / P1) * ... * (1 - 1 / Pi), P1 to Pi being the set of prim factors of n

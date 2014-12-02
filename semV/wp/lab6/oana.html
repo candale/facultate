@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>LAB6</title>
+<script src="jquery-1.11.1.js"></script>
+</head>
+ 
+<body>
+ 
+<script type="text/javascript">
+$(document).ready(function() {
+	var table = $('<table></table>');
+	for(i=0; i<3; i++){
+	    var row = $('<tr><td></td></tr>').text('result ' + i);
+	    table.append(row);
+	}
+	 console.log(table);
+	$('#here_table').append(table);
+});
+ 
+</script>
+ 
+<div id="here_table"></div>
+ 
+</body>
+</html>
