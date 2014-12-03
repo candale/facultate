@@ -68,15 +68,15 @@ int main() {
 
   Image image(imageWidth, imageHeight);
 
-  Color lightAmbient(1,1,1);
-  Color lightDiffuse(1,1,1);
-  Color lightSpecular(1,1,1);
+  Color lightAmbient(1, 1, 1);
+  Color lightDiffuse(1, 1, 1);
+  Color lightSpecular(1, 1, 1);
   Material lightMat(lightAmbient, lightDiffuse, lightSpecular, 1, 1, 1);
-  Vector light(-100,0,0);
+  Vector light1(-1000, 1000, 0);
 
-  Color ambient(0.1,0.1,0.1);
-  Color difuse(0.3,0.3,0.3);
-  Color specular(0.7,0.7,0.7);
+  Color ambient(0.1, 0.1, 0.1);
+  Color difuse(0.3, 0.3, 0.3);
+  Color specular(1, 1, 1);
   Material sphereMat(ambient, difuse, specular, 20, 0.5, 1);
 
   for (int i=0; i < imageWidth; i++)
@@ -114,9 +114,12 @@ int main() {
 
               Color color = sphereMat.ambient() * lightMat.ambient() * in.geometry().color();
 
+              // add diffused light
               if (N * T > 0) {
                 color += sphereMat.diffuse() * lightMat.diffuse() * (N * T) * in.geometry().color();
               }
+
+              // add specular light
               if (E * R > 0) {
                 color += sphereMat.specular() * lightMat.specular() * pow(E * R,sphereMat.shininess()) * in.geometry().color();
               }
