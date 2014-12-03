@@ -1,2 +1,2 @@
-spheres : *.cpp *.hpp
-	g++ -Wall -o spheres *.cpp *.hpp
+run : *.cpp *.hpp
+	g++ -Wall -o run *.cpp *.hpp

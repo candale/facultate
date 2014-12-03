@@ -48,17 +48,6 @@ int main() {
   Vector viewDirection(0, 0, 1);
   Vector viewUp(0, -1, 0);
 
-  Color lightAmbient(1,1,1);
-  Color lightDiffuse(1,1,1);
-  Color lightSpecular(1,1,1);
-  Material lightMat(lightAmbient,lightDiffuse,lightSpecular,1,1,1);
-  Vector light(-100,0,0);
-
-  Color ambient(0.1,0.1,0.1);
-  Color difuse(0.3,0.3,0.3);
-  Color specular(0.7,0.7,0.7);
-  Material sphereMat(ambient,difuse,specular,10,1,1);
-
   double frontPlaneDist = 2;
   double backPlaneDist = 1000;
 
@@ -78,6 +67,17 @@ int main() {
   viewParallel.normalize();
 
   Image image(imageWidth, imageHeight);
+
+  Color lightAmbient(1,1,1);
+  Color lightDiffuse(1,1,1);
+  Color lightSpecular(1,1,1);
+  Material lightMat(lightAmbient, lightDiffuse, lightSpecular, 1, 1, 1);
+  Vector light(-100,0,0);
+
+  Color ambient(0.1,0.1,0.1);
+  Color difuse(0.3,0.3,0.3);
+  Color specular(0.7,0.7,0.7);
+  Material sphereMat(ambient, difuse, specular, 20, 0.5, 1);
 
   for (int i=0; i < imageWidth; i++)
     {
